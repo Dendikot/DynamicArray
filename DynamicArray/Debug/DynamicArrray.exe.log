@@ -1,0 +1,11 @@
+﻿  DynamicArrrayInt.cpp
+C:\Users\Dan\source\repos\DynamicArrrayInt\DynamicArrrayInt.cpp(148,35): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Dan\source\repos\DynamicArrrayInt\DynamicArrrayInt.cpp(130): message : while compiling class template member function 'void ListInt<double,2>::insert(ListIterator<ListInt<double,2>>,double,size_t)'
+C:\Users\Dan\source\repos\DynamicArrrayInt\DynamicArrrayInt.cpp(175): message : see reference to function template instantiation 'void ListInt<double,2>::insert(ListIterator<ListInt<double,2>>,double,size_t)' being compiled
+C:\Users\Dan\source\repos\DynamicArrrayInt\DynamicArrrayInt.cpp(170): message : see reference to class template instantiation 'ListInt<double,2>' being compiled
+C:\Users\Dan\source\repos\DynamicArrrayInt\DynamicArrrayInt.cpp(152,44): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Dan\source\repos\DynamicArrrayInt\DynamicArrrayInt.cpp(57,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Dan\source\repos\DynamicArrrayInt\DynamicArrrayInt.cpp(55): message : while compiling class template member function 'void ListInt<double,2>::realloc(size_t)'
+C:\Users\Dan\source\repos\DynamicArrrayInt\DynamicArrrayInt.cpp(146): message : see reference to function template instantiation 'void ListInt<double,2>::realloc(size_t)' being compiled
+C:\Users\Dan\source\repos\DynamicArrrayInt\DynamicArrrayInt.cpp(62,30): warning C4018: '<': signed/unsigned mismatch
+  DynamicArrrayInt.vcxproj -> C:\Users\Dan\source\repos\DynamicArrrayInt\Debug\DynamicArrrayInt.exe

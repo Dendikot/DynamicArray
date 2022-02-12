@@ -1,0 +1,2 @@
+C:\Users\Dan\source\repos\DynamicArrrayInt\Debug\DynamicArrrayInt.exe
+C:\Users\Dan\Documents\GitHub\DynamicArray\DynamicArray\Debug\DynamicArrray.exe
