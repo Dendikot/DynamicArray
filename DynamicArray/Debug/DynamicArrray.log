@@ -1,12 +1,12 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(519,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (DynamicArrrayInt.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   DynamicArrray.cpp
-C:\Users\Dan\Documents\GitHub\DynamicArray\DynamicArray\DynamicArrray.cpp(147,35): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Dan\Documents\GitHub\DynamicArray\DynamicArray\DynamicArrray.cpp(129): message : while compiling class template member function 'void ListInt<double,2>::insert(ListIterator<ListInt<double,2>>,double,size_t)'
-C:\Users\Dan\Documents\GitHub\DynamicArray\DynamicArray\DynamicArrray.cpp(174): message : see reference to function template instantiation 'void ListInt<double,2>::insert(ListIterator<ListInt<double,2>>,double,size_t)' being compiled
-C:\Users\Dan\Documents\GitHub\DynamicArray\DynamicArray\DynamicArrray.cpp(169): message : see reference to class template instantiation 'ListInt<double,2>' being compiled
-C:\Users\Dan\Documents\GitHub\DynamicArray\DynamicArray\DynamicArrray.cpp(151,44): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Dan\Documents\GitHub\DynamicArray\DynamicArray\DynamicArrray.cpp(56,21): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Dan\Documents\GitHub\DynamicArray\DynamicArray\DynamicArrray.cpp(54): message : while compiling class template member function 'void ListInt<double,2>::realloc(size_t)'
-C:\Users\Dan\Documents\GitHub\DynamicArray\DynamicArray\DynamicArrray.cpp(145): message : see reference to function template instantiation 'void ListInt<double,2>::realloc(size_t)' being compiled
-C:\Users\Dan\Documents\GitHub\DynamicArray\DynamicArray\DynamicArrray.cpp(61,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Dan\Documents\GitHub\DynamicArray\DynamicArray\DynamicArrray.cpp(136,35): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Dan\Documents\GitHub\DynamicArray\DynamicArray\DynamicArrray.cpp(118): message : while compiling class template member function 'void ListInt<double,2>::insert(ListIterator<ListInt<double,2>>,double,size_t)'
+C:\Users\Dan\Documents\GitHub\DynamicArray\DynamicArray\DynamicArrray.cpp(162): message : see reference to function template instantiation 'void ListInt<double,2>::insert(ListIterator<ListInt<double,2>>,double,size_t)' being compiled
+C:\Users\Dan\Documents\GitHub\DynamicArray\DynamicArray\DynamicArrray.cpp(157): message : see reference to class template instantiation 'ListInt<double,2>' being compiled
+C:\Users\Dan\Documents\GitHub\DynamicArray\DynamicArray\DynamicArrray.cpp(140,44): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Dan\Documents\GitHub\DynamicArray\DynamicArray\DynamicArrray.cpp(45,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Dan\Documents\GitHub\DynamicArray\DynamicArray\DynamicArrray.cpp(43): message : while compiling class template member function 'void ListInt<double,2>::realloc(size_t)'
+C:\Users\Dan\Documents\GitHub\DynamicArray\DynamicArray\DynamicArrray.cpp(134): message : see reference to function template instantiation 'void ListInt<double,2>::realloc(size_t)' being compiled
+C:\Users\Dan\Documents\GitHub\DynamicArray\DynamicArray\DynamicArrray.cpp(50,30): warning C4018: '<': signed/unsigned mismatch
   DynamicArrray.vcxproj -> C:\Users\Dan\Documents\GitHub\DynamicArray\DynamicArray\Debug\DynamicArrray.exe

@@ -1,34 +1,23 @@
 #include <iostream>
 #include <iterator>
 
-// write a simple iterator that operates on minimal amount of the overload operators and try it out practicaly
-// make 
-
-// typename is a synonym for class why we cannot replace it then?
 template<class Vector>
 class ListIterator
 {
 public:
-    // is it because class here means different thing?
-    // we get the type of the class we are 
     using ValueType = typename Vector::ValueType;
 public:
     ListIterator(ValueType* ptr) :m_ptr(ptr) {}
 
     ListIterator& operator++() { m_ptr++; return *this; }
-    // does it just simply moves
-    // Postfix increment
+
     ListIterator operator++(int) { ListIterator tmp = *this; ++(*this); return tmp; }
 
     ListIterator& operator--() { m_ptr--; return *this; }
-    // Postfix decrement
     ListIterator operator--(int) { ListIterator tmp = *this; --(*this); return tmp; }
 
     ListIterator operator+(int value) { m_ptr += value; return *this; }
 
-    // List iterator - List iterator is when we minus pointer of the first iterator and return the List iterator
-    // could the problem be that I dont have a getter for the pointer?
-    // what actually happens when we substract pointers
     int distance(ListIterator& other) { return ((int)m_ptr - (int)other.m_ptr)/sizeof(ValueType);}
 
     ValueType& operator*() { return *m_ptr; }
@@ -89,7 +78,7 @@ public:
         }
         else
         {
-            // exception
+            return NULL;
         }
     }
 
@@ -157,12 +146,10 @@ public:
         delete[] tempArr;
     }
 
-    // emplace instead of copy !
     ~ListInt() {
         delete[] arrPoint;
     }
 };
-
 
 int main()
 {
